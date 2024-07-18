@@ -17,7 +17,7 @@ jobs:
       ref: context.event.github.ref
   StyleGan2:
     resources:
-      instance-type: GPU+
+      instance-type: M4000
     needs:
       - CloneRepo
     inputs:
