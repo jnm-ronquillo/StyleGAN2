@@ -6,7 +6,7 @@ on:
 jobs:
   CloneRepo:
     resources:
-      instance-type: C4
+      instance-type: C3
     outputs:
      stylegan2:
         type: volume
@@ -17,7 +17,7 @@ jobs:
       ref: context.event.github.ref
   StyleGan2:
     resources:
-      instance-type: P4000
+      instance-type: GPU+
     needs:
       - CloneRepo
     inputs:
