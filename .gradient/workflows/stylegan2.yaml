@@ -6,7 +6,7 @@ on:
 jobs:
   CloneRepo:
     resources:
-      instance-type: C1
+      instance-type: C2
     outputs:
      stylegan2:
         type: volume
