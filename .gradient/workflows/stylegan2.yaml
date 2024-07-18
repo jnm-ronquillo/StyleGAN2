@@ -7,7 +7,7 @@
 # Last updated: Dec 07 2021
 #
 # Trigger Workflow to run on any update (commit) to the repository when linked to a Gradient project
-# (uncomment to activate) 
+# (uncomment to activate)
 
 on:
  github:
